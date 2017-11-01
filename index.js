@@ -41,5 +41,5 @@ var salad = {
   name: "Steak Caesar"
 }
 
-pbj.describe.bind(salad);
+salad.describe = pbj.describe.bind(salad);
 salad.describe();
