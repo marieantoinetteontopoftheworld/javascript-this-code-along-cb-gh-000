@@ -56,4 +56,4 @@ function Customer(name, tableNumber) {
 var sally = new Customer('Sally', '4');
 var visitSally = visitTable.bind(sally);
 
-setTimeout(visitSally(), 2000);
+setTimeout(visitSally, 2000);
