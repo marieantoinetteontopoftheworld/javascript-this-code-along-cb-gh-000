@@ -35,3 +35,10 @@ function Sandwich(bread, ingredients, name) {
 var pbj = new Sandwich("wheat", ["chunky peanut butter", "blackberry preserves"], "PB&Jam");
 
 pbj.describe();
+
+var salad = {
+  ingredients: ["croutons", "romaine hearts", "steak", "parmesan", "caesar dressing"],
+  name: "Steak Caesar"
+}
+
+pbj.describe.bind(salad);
